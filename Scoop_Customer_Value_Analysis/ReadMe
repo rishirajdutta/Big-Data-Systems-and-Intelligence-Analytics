@@ -1,0 +1,22 @@
+### Customer Value Analysis Framework 
+
+Analysis Objective: Analyze performance of customers and segment its existing customers into the following 3 groups Platinum, Gold, Silver
+
+
+Assumptions:
+
+1. Data Preparation: Convert the data into the right format for analysis. Perform necessary data integrity. 
+
+2. Primary Metrics to consider 
+  a. Penetration Rate% per month 
+  b. Activation Rate% per month 
+  c. Average Trip Volume per month 
+  
+3. For each of the above primary metric we will take the customer 
+  a. Who are above 99% percentile as Platinum customers (high value) 
+  b. Who are above 95% and below 99% percentile as Gold customers (medium value) 
+  c. Who are below 95% percentile as Silver customers (low value) 
+  
+4. Other secondary metric to consider 
+  a. Average registered users per month 
+  b. Average number of companies registered per month 
